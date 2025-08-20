@@ -1,0 +1,27 @@
+{
+  "name": "hasa-bot",
+  "version": "1.0.0",
+  "description": "Sinhala-branded modular WhatsApp bot powered by Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "sinhala",
+    "baileys",
+    "plugin",
+    "modular",
+    "UX"
+  ],
+  "author": "gesandu1111",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

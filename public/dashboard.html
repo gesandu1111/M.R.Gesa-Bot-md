@@ -2,20 +2,67 @@
 <html lang="si">
 <head>
   <meta charset="UTF-8">
-  <title>HASA Bot Dashboard</title>
+  <title>HASA බොට් පාලක පුවරුව</title>
   <style>
-    body { font-family: sans-serif; background: #f9f9f9; padding: 2rem; }
-    h1 { color: #2c3e50; }
-    .status { font-size: 1.2rem; color: green; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f4f8;
+      padding: 2rem;
+      color: #2c3e50;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .status {
+      font-size: 1.2rem;
+      color: green;
+      margin-bottom: 1rem;
+    }
+    .qr {
+      margin: 2rem 0;
+    }
+    .qr img {
+      border: 2px solid #2c3e50;
+      padding: 1rem;
+      background: white;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: #e3f2fd;
+      margin: 0.5rem 0;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
   </style>
 </head>
 <body>
-  <h1>🤖 HASA Bot Status</h1>
-  <p class="status">බොට් එක සජීවීව ක්‍රියාත්මක වේ!</p>
+  <h1>🤖 HASA බොට් පාලක පුවරුව</h1>
+  <p class="status">බොට් එක සජීවීව ක්‍රියාත්මක වේ ✅</p>
+
+  <div class="qr">
+    <h2>📸 WhatsApp QR කේතය</h2>
+    <p>ඔබගේ WhatsApp app එකෙන් මෙම QR කේතය scan කරන්න:</p>
+    <img src="/qr.png" alt="WhatsApp QR Code" width="250" />
+  </div>
+
+  <h2>🔌 ක්‍රියාත්මක ප්ලගින්</h2>
   <ul>
     <li>📜 MenuPlugin</li>
     <li>📢 StatusPlugin</li>
     <li>🧩 Sinhala UX Active</li>
   </ul>
+
+  <footer>
+    © 2025 HASA Bot | Sinhala-branded CLI ecosystem by gesandu1111
+  </footer>
 </body>
 </html>

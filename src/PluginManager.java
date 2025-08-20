@@ -1,6 +1,5 @@
-package plugins;
-
 import java.util.*;
+import plugins.Plugin; // ✅ Import the Plugin interface
 
 public class PluginManager {
     private List<Plugin> plugins = new ArrayList<>();
